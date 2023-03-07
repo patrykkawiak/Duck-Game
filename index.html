@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Duck - Game</title>
+    <link rel="icon" type="image/x-icon" href="main-picture.png">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/593900b406.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1 class="heading">Yellow Duck - Clicking Game</h1>
+    <button class="start">Start</button>
+    <button class="settings d-none"><i class="fa-solid fa-gear"></i></button>
+    <div class="settings-list hidden">
+        <h3>Settings</h3>
+        <div class="one">Game duration</div>
+        <input type="number" placeholder="wpisz sekundy" value="30" class="seconds-input d-none">
+        <div class="two">Amount of clicks</div>
+        <input type="number" placeholder="wpisz kliknięcia" value="20" class="seconds-input2 d-none">
+        <button class="apply">Accept</button>
+    </div>
+    <button class="back d-none"><i class="fa-solid fa-arrow-left"></i></button>
+    <button class="history d-none"><i class="fa-solid fa-trophy"></i></button>
+    <div class="history-list d-none">
+        <h1>History</h1>
+    </div>
+    <button class="clear d-none"><i class="fa-solid fa-trash"></i></button>
+    <p class="result"></p>
+    <p class="timer"></p>
+    <div class="box">
+        <div class="game-object d-none"></div>
+
+        <div class="option game1">
+            <h2>Collect Clicks <i class="fa-solid fa-computer-mouse"></i></h2>
+            <p>Get as many clicks as possible for 30 seconds</p>
+        </div>
+        <div class="option game2">
+            <h2>Time Game <i class="fa-solid fa-clock"></i></h2>
+            <p>Click 20 times on the duck fastest as you can</p>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
